@@ -1,14 +1,3 @@
-/* @Author: Alexandra    @Date: Feb 20 2025
- * @Teacher: Mr.Carreiro
- * Description: In this Game of Life live cells are represented by "O" and dead cells are represented by "." in 
- * a 20 x 20 grid. The user specifies the initial cell population for generation 0 and chooses whether or not to 
- * continue to the next generation by entering a "1". Enetering "exit" will end the game. Each generation the cell
- * population and positions changes based on the following conditions:
- *      1) If a cell has 3 neighbours, it will be alive for the next generation regardless of whether or not they were alive 
- *         in the current generation.
- *      2) If a LIVE cell has 2 neighbours, it will stay alive for the next generation, otherwise it will die.
- *      3) The neighbours of a cell are any live cell that adjoins the cell either horizontally , vertically or diagonally.
- */
 
  import java.util.Scanner;
 

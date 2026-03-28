@@ -17,11 +17,6 @@ A live cell with 2 neighbors remains alive; otherwise, it dies
 
 Neighbors are counted horizontally, vertically, and diagonally
 
-## 🛠 Built With
-
-Java – Core simulation logic and user interaction
-
-Console I/O – User input and grid-based visual output
 
 ## 📍 The Process
 This project served as a deep dive into 2D arrays and spatial data management within a simulation environment. The implementation 
@@ -30,3 +25,8 @@ A significant technical hurdle involved the precision of boundary logic, ensurin
 causing out-of-bounds errors. To maintain the integrity of each generation, the simulation logic enforced a strict separation of states, 
 calculating the next stage independently of the current one to prevent data corruption. The result is a stable system that successfully 
 translates abstract rules into functional game mechanics.
+
+▶️ Running the Project
+1. Clone the repository
+2. Compile the Java file in the terminal: `javac GameOfLife.java`
+3. Run the compiled file: `java GameOfLife`
